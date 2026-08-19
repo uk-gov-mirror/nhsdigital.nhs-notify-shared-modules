@@ -3,7 +3,10 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "exclude": [
     "node_modules",
